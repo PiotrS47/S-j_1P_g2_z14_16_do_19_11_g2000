@@ -1,0 +1,146 @@
+<!DOCTYPE html> 
+<html lang="pl-PL"> 
+<html> 
+     <head> 
+             <meta charset="utf-8"> 
+             <title>formularz_sojko.html</title> 
+     </head> 
+    <body> 
+ <p> to jest formularz </p>
+
+<A HREF="index.html">wróć do strony głównej</A>
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz zgłoszeń do koła informatycznego</title>
+</head>
+<body>
+    <h2 align="center">Formularz zgłoszeń do koła informatycznego</h2>
+
+    <form>
+        <table border="1" width="100%" cellpadding="10" cellspacing="0">
+            <tr>
+                <td rowspan="2" width="40%" valign="top">
+                    <h3>Dane ucznia</h3>
+
+                    <label for="imie">Imię:</label>
+                    <input type="text" id="imie" name="imie">
+                    <br><br>
+
+                    <label for="nazwisko">Nazwisko:</label>
+                    <input type="text" id="nazwisko" name="nazwisko">
+                    <br><br>
+
+                    <label for="login">Login:</label>
+                    <input type="text" id="login" name="login">
+                    <br><br>
+
+                    <label for="haslo">Hasło:</label>
+                    <input type="password" id="haslo" name="haslo">
+                </td>
+                <td valign="top">
+                    <h3>Interesujesz się informatyką</h3>
+                    <input type="radio" id="tak" name="informatyka" value="Tak">
+                    <label for="tak">Tak</label>
+                    &nbsp;&nbsp;
+                    <input type="radio" id="nie" name="informatyka" value="Nie">
+                    <label for="nie">Nie</label>
+                </td>
+            </tr>
+            <tr>
+                <td valign="top">
+                    <h3>Poziom wiedzy</h3>
+                    <input type="radio" id="poczatkujacy" name="poziom" value="Początkujący">
+                    <label for="poczatkujacy">Początkujący</label>
+                    <br>
+                    <input type="radio" id="sredni" name="poziom" value="Średni">
+                    <label for="sredni">Średni</label>
+                    <br>
+                    <input type="radio" id="zaawansowany" name="poziom" value="Zaawansowany">
+                    <label for="zaawansowany">Zaawansowany</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td valign="top">
+                    <h3>Klasa</h3>
+
+                    <label for="klasa">Wybierz klasę:</label>
+                    <select id="klasa" name="klasa">
+                        <option>1P</option>
+                        <option>1K/P</option>
+                        <option>2P</option>
+                        <option>2K/P</option>
+                        <option>3P</option>
+                        <option>3K/P</option>
+                        <option>4P</option>
+                        <option>4K/P</option>
+                    </select>
+                    <br><br>
+
+                    <label for="system">Wybierz system:</label>
+                    <select id="system" name="system">
+                        <option selected>Windows</option>
+                        <option>Linux</option>
+                        <option>macOS</option>
+                    </select>
+                </td>
+                <td valign="top">
+                    <h3>Rodzaje zajęć</h3>
+                    <input type="radio" id="programowanie" name="zajecia" value="Programowanie">
+                    <label for="programowanie">Programowanie</label>
+                    <br>
+                    <input type="radio" id="grafika" name="zajecia" value="Grafika">
+                    <label for="grafika">Grafika</label>
+                    <br>
+                    <input type="radio" id="sieci" name="zajecia" value="Sieci">
+                    <label for="sieci">Sieci</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td valign="top">
+                    <h3>Jakie języki cię interesują?</h3>
+                    <input type="checkbox" id="html" name="jezyki" value="HTML">
+                    <label for="html">HTML</label>
+                    <br>
+                    <input type="checkbox" id="python" name="jezyki" value="Python">
+                    <label for="python">Python</label>
+                    <br>
+                    <input type="checkbox" id="css" name="jezyki" value="CSS">
+                    <label for="css">CSS</label>
+                    <br>
+                    <input type="checkbox" id="javascript" name="jezyki" value="JavaScript">
+                    <label for="javascript">JavaScript</label>
+
+                    <hr>
+
+                    <h3>Wybierz swoje zainteresowania</h3>
+                    <select name="zainteresowania" size="4" multiple>
+                        <option selected>Programowanie</option>
+                        <option>Grafika</option>
+                        <option>Gry</option>
+                        <option>Sieci</option>
+						<option>Programowanie gier</option>
+                    </select>
+                </td>
+                <td valign="top">
+                    <h3>Dodatkowe informacje</h3>
+                    <textarea name="informacje" rows="10" cols="30"></textarea>
+                </td>
+            </tr>
+        </table>
+
+        <p align="center">
+            <input type="submit" value="Wyślij">
+            &nbsp;&nbsp;&nbsp;
+            <input type="reset" value="Wyczyść">
+        </p>
+    </form>
+</body>
+</html>
+
+    </body> 
+  </html>
